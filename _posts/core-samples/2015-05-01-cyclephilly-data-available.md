@@ -1,14 +1,16 @@
 ---
 layout: post
 published: true
-title: "CyclePhilly App Data Available"
-feature_image: "/media/cycle_philly.png"
+title: CyclePhilly App Data Available
+feature_image: /media/cycle_philly.png
 category: New Data
-tags:
-  - data download
-  - planning
+tags: 
   - GIS
+  - planning
+  - data download
+author: cpollard
 ---
+
 
 {% include JB/setup %}
 

@@ -2,13 +2,15 @@
 layout: post
 published: true
 title: "DVRPC Counts Vehicle, Bicycle, Pedestrian Traffic"
-feature_image: "/media/traffic_counts.png"
+feature_image: /media/traffic_counts.png
 category: Products
-tags:
+tags: 
   - GIS
   - planning
   - data download
+author: cpollard
 ---
+
 
 {% include JB/setup %}
 
