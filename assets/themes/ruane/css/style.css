@@ -1097,3 +1097,7 @@ ul.faq li > div h3 {
 .navbar-brand h1{
   margin-top: 2px;
 }
+.btn-primary .badge{
+  color: #337ab7;
+  background-color: #fff;
+}
