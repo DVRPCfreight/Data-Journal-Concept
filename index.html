@@ -1,0 +1,74 @@
+---
+layout: page
+title: "Blog Home"
+tagline: "A simple, yet powerful blog built on Jekyll"
+group: navigation
+---
+
+
+{% include JB/setup %}
+
+<section id="blog" class="container">
+  <div class="row">
+    <aside class="col-sm-4 col-sm-push-8">
+        <div class="widget search">
+            <form role="form">
+                <div class="input-group">
+                    <input type="text" class="form-control" autocomplete="off" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-danger" type="button"><i class="icon-search"></i></button>
+                    </span>
+                </div>
+            </form>
+        </div><!--/.search-->
+
+        <div class="widget categories">
+            <h3>Categories</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="arrow">
+                        <li><a href="#">Development</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="arrow">
+                        <li><a href="#">Joomla</a></li>
+                    </ul>
+                </div>
+            </div>                     
+        </div><!--/.categories-->
+        <div class="widget tags">
+            <h3>Post Tags</h3>
+            {% unless site.tags == empty %}
+                <ul class="tag-cloud">
+                    {% assign tags_list = site.tags %}
+                    {% include JB/sidebar_tag_list %}
+                </ul>
+            {% endunless %} 
+        </div><!--/.tags-->
+    </aside>
+    <div class="col-sm-8 col-sm-pull-4">
+        <div class="blog">
+          {% for post in site.posts %}
+            <div class="blog-item">
+              <div class="blog-img-wrapper">
+                <img class="img-responsive img-blog" src="{{ BASE_PATH }}{{ post.feature_image }}" width="100%" alt="" />
+                </div>
+                <div class="blog-content">
+                    <a href="{{ BASE_PATH }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                    <div class="entry-meta">
+                        <span><i class="icon-user"></i> {{ site.author.name }} </span>
+                        <span><i class="icon-folder-close"></i> {{ post.category }} </span>
+                        <span><i class="icon-calendar"></i> {{ post.date | date: "%B %-d, %Y" }} </span>
+                    </div>
+                    <p>{{ post.content | strip_html | truncatewords:75}}</p>
+                    <a class="btn btn-default" href="{{ BASE_PATH }}{{ post.url }}">Read More <i class="icon-angle-right"></i></a>
+                </div>
+            </div><!--/.blog-item-->
+          {% endfor %}
+        </div>
+      </div>
+  </div>
+</section>
+
+

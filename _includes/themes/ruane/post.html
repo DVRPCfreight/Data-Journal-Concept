@@ -1,0 +1,118 @@
+<section id="title" class="emerald">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>{{ page.title }}</h1>
+                {% if page.tagline %} <p>{{ page.tagline }}</p>{% endif %}
+                <div class="entry-meta">
+                    <span><i class="icon-folder-close"></i> {{ page.category }}</span>&nbsp;&nbsp;
+                    <span><i class="icon-user"></i> {{ site.author.name }}</span>&nbsp;&nbsp;
+                    
+                    <span><i class="icon-calendar"></i> {{ page.date | date: '%B %d, %Y' }}</span>
+                </div>
+            </div>
+            <!-- <div class="col-sm-6">
+                <ul class="breadcrumb pull-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">About Us</li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+</section><!--/#title-->
+
+<section id="blog" class="container">
+    <div class="row">
+        <aside class="col-sm-4 col-sm-push-8">
+            <div class="widget search">
+                <form role="form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" autocomplete="off" placeholder="Search">
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button"><i class="icon-search"></i></button>
+                        </span>
+                    </div>
+                </form>
+            </div><!--/.search-->
+
+            <div class="widget categories">
+                <h3>Categories</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="arrow">
+                            <li><a href="#">Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="arrow">
+                            <li><a href="#">Joomla</a></li>
+                        </ul>
+                    </div>
+                </div>                     
+            </div><!--/.categories-->
+            <div class="widget tags">
+                <h3>Post Tags</h3>
+                {% unless site.tags == empty %}
+                    <ul class="tag-cloud">
+                        {% assign tags_list = site.tags %}
+                        {% include JB/sidebar_tag_list %}
+                    </ul>
+                {% endunless %} 
+            </div><!--/.tags-->
+        </aside>
+        <div class="col-sm-8 col-sm-pull-4">
+            <div class="blog">
+                <div class="blog-item">
+                    {% if page.feature_image %}
+                    <div class="blog-img-wrapper">
+                        <img class="img-responsive img-blog" src="{{ BASE_PATH }}{{ page.feature_image }}" width="100%" alt="" />
+                    </div>
+                    {% endif %}
+                    <div class="blog-content">
+                        
+                        {{ content }}
+                        
+                        <hr>
+                        
+                        {% unless page.tags == empty %}
+                            <div class="tags">
+                                <i class="icon-tags"></i>&nbsp;Tags&nbsp;&nbsp; 
+                                    {% assign tags_list = page.tags %}
+                                    {% include JB/ruane_tag_list %}
+                            </div>
+                        {% endunless %} 
+                        <hr>
+                            <ul class="pagination">
+                                {% if page.previous %}
+                                  <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+                                {% else %}
+                                  <li class="prev disabled"><a>&larr; Previous</a></li>
+                                {% endif %}
+                                  <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+                                {% if page.next %}
+                                  <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+                                {% else %}
+                                  <li class="next disabled"><a>Next &rarr;</a>
+                                {% endif %}
+                            </ul>
+                        <p>&nbsp;</p>
+
+                        <div class="author well">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="avatar img-thumbnail" src="../images/blog/avatar.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <div class="media-heading">
+                                        <strong>John Doe</strong>
+                                    </div>
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                                </div>
+                            </div>
+                        </div><!--/.author-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--blog post-->
