@@ -54,6 +54,17 @@ prose:
               value: "New Data"
             - name: "Products"
               value: "Products"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Post Author"
+          options:
+            - name: "Michael Ruane"
+              value: "mruane"
+            - name: "Chris Pollard"
+              value: "cpollard"
+            - name: "Greg Krykewycz"
+              value: "gkrykewycz"
       - name: "tags"
         field:
           element: "multiselect"

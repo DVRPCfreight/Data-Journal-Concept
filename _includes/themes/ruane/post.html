@@ -6,7 +6,7 @@
                 {% if page.tagline %} <p>{{ page.tagline }}</p>{% endif %}
                 <div class="entry-meta">
                     <span><i class="icon-folder-close"></i> {{ page.category }}</span>&nbsp;&nbsp;
-                    <span><i class="icon-user"></i> {{ site.author.name }}</span>&nbsp;&nbsp;
+                    <span><i class="icon-user"></i> {{ site.data.authors.[page.author].name }}</span>&nbsp;&nbsp;
                     
                     <span><i class="icon-calendar"></i> {{ page.date | date: '%B %d, %Y' }}</span>
                 </div>
@@ -96,7 +96,7 @@
                                 {% endif %}
                             </ul>
                         <p>&nbsp;</p>
-
+                        
                         <div class="author well">
                             <div class="media">
                                 <div class="pull-left">
@@ -104,9 +104,9 @@
                                 </div>
                                 <div class="media-body">
                                     <div class="media-heading">
-                                        <strong>John Doe</strong>
+                                        <strong>{{ site.data.authors.[page.author].name }}</strong>
                                     </div>
-                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                                    <p>site.data.authors.[page.author].bio</p>
                                 </div>
                             </div>
                         </div><!--/.author-->

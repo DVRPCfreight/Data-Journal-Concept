@@ -57,7 +57,7 @@ group: navigation
                 <div class="blog-content">
                     <a href="{{ BASE_PATH }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
                     <div class="entry-meta">
-                        <span><i class="icon-user"></i> {{ site.author.name }} </span>
+                        <span><i class="icon-user"></i> {{ site.data.authors.[post.author].name }} </span>
                         <span><i class="icon-folder-close"></i> {{ post.category }} </span>
                         <span><i class="icon-calendar"></i> {{ post.date | date: "%B %-d, %Y" }} </span>
                     </div>
