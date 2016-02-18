@@ -54,6 +54,28 @@ prose:
               value: "New Data"
             - name: "Products"
               value: "Products"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Choose Tags"
+          alterable: true
+          options:
+            - name: "GIS"
+              value: "GIS"
+            - name: "Planning"
+              value: "planning"
+            - name: "Data Download"
+              value: "data download"
+            - name: "Forecasting"
+              value: "forecasting"
+            - name: "Transit"
+              value: "transit"
+            - name: "Census"
+              value: "census"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
