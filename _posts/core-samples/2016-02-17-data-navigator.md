@@ -2,16 +2,18 @@
 layout: post
 published: true
 title: "Use DVRPC’s Data Navigator for Municipal-Level Demographic Info"
-feature_image: "/media/data_nav.png"
+feature_image: /media/data_nav.png
 category: Products
-tags:
-  - data download
-  - planning
+tags: 
   - GIS
+  - planning
+  - data download
   - forecasting
   - census
   - employment
+author: mruane
 ---
+
 
 {% include JB/setup %}
 
