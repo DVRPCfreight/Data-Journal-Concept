@@ -45,6 +45,15 @@ prose:
         field:
           element: "hidden"
           value: "blog"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Add Category"
+          options:
+            - name: "New Data"
+              value: "New Data"
+            - name: "Products"
+              value: "Products"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
