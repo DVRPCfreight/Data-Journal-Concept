@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>CyclePhilly App Data Available</title>
+    <title>How does this work?</title>
     
     <meta name="author" content="Michael Ruane">
 
@@ -103,13 +103,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>CyclePhilly App Data Available</h1>
+                <h1>How does this work?</h1>
                 
                 <div class="entry-meta">
-                    <span><i class="icon-folder-close"></i> New Data</span>&nbsp;&nbsp;
-                    <span><i class="icon-user"></i> Chris Pollard</span>&nbsp;&nbsp;
+                    <span><i class="icon-folder-close"></i> Products</span>&nbsp;&nbsp;
+                    <span><i class="icon-user"></i> Michael Ruane</span>&nbsp;&nbsp;
                     
-                    <span><i class="icon-calendar"></i> May 01, 2015</span>
+                    <span><i class="icon-calendar"></i> February 18, 2016</span>
                 </div>
             </div>
         </div>
@@ -225,17 +225,85 @@
                 <div class="blog-item">
                     
                     <div class="blog-img-wrapper">
-                        <img class="img-responsive img-blog" src="/media/cycle_philly.png" width="100%" alt="" />
+                        <img class="img-responsive img-blog" src="/media/code.jpg" width="100%" alt="" />
                     </div>
                     
                     <div class="blog-content">
                         
                         
-<p>The launch of the CyclePhilly smartphone app has provided a valuable glimpse into the bicycling habits of Greater Philadelphia. Since it the app was launched, 220 bicyclists used CyclePhilly to record their routes, and the resulting data is now available for sharing and use. The data received provides an additional resource for local planners and agencies in an effort to understand bicycle trends, routes, and trip purposes, implement better bicycle facilities, and connect the region’s trail network, known as The Circuit.</p>
+<h3 id="duh-magic-that-is-how">Duh, Magic. That is how!</h3>
 
-<p>Three additional datasets have been added to the “download data” tab under “Tools and Data” on the <a href="http://www.dvrpc.org/webmaps/CyclePhilly/">DVRPC web site</a>.</p>
+<p>The desire to create a blog, or any dynamic content site, often leads to a Content Management System (CMS). These systems do of course have their purposes, but can also be incredibly costly and have <strong>a ton</strong> of bloat. One of the best alternatives on the market is Jekyll.</p>
 
-<p><img src="/media/cycle_philly.png" alt="cycle_philly.png" /></p>
+<p>Jekyll is a tool that uses a lot of fun technical nonsense to develop a static file blog from predefined templates based on content stored in Markdown files. I know, I know…“so what. That is what a CMS does right?” Wrong. A CMS ultimately relies on database to store data that is compiled by the server and sent to the client. Jekyll creates the static HTML files before they are made available on the server.</p>
+
+<hr />
+
+<h3 id="yeah-butis-jekyll-really-the-answer">Yeah but…is Jekyll really the answer?</h3>
+
+<p><strong>I don’t know!</strong> It could be, but I don’t know the full end game.</p>
+
+<blockquote>
+  <p>I just get bored on the train sometimes and figured, “I remember long ago discussing a data journal, I should learn that Jekyll thing and test it out.”</p>
+</blockquote>
+
+<p>So the result? You are looking at it. 1hr and 45minutes of development for a proof of concept data journal. God bless that public transit system.</p>
+
+<blockquote>
+  <p><strong>But this doesn’t look sleek and awesome?</strong> Chill bro, it is a proof of concept! We can build anything from this framework. ANYTHING!!</p>
+</blockquote>
+
+<p><em>Disclaimer: within reason of course, this isn’t NASA.</em></p>
+
+<hr />
+
+<h3 id="what-about-workflow">What about workflow?</h3>
+
+<p>Glad you asked. Work flow still needs to be defined, but that applies to any new system. The are many ways of editing Markdown files. <em>If you were paying attention you would know those are what store the content.</em> One great option that offers a friendly user interface is Prose.io. It allows users to develop content that saves directly to a Github repo and can be useful to none programmers that need help with the syntax.</p>
+
+<p>About Markdown…it isn’t as scary as it seems. It is a basic language for development that you can see in the demo above or <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">this cheatsheet</a>. It is powerful, yet elegant. That my friend translates into a very easy learning curve.</p>
+
+<p>So the process of writing a post with Prose.io:
+1. Awesome, overachieving staff member decides “Hey I do cool stuff, I want to share it.” They intern develop content in Markdown on Prose.io (see above)
+2. The saved draft is reviewed by OCE (I guess? Beyond my pay grade)
+3. Upon approval, “jekyll build” is run by the web staff and updated static files are synced to the live server.
+4. Awesome, overachieving staff member celebrates their work by sharing the post with the world and buying everyone a round at happy hour.</p>
+
+<p>Okay, so workflow very well may be the biggest unknown still. However, I believe this system could be deployed locally with some minor adjustments to better allocate user roles and improve this workflow.</p>
+
+<hr />
+
+<h3 id="just-some-things-i-wanted-to-share">Just some things I wanted to share</h3>
+
+<p>This isn’t perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
+- <a href="Mapbox.com/blog">Mapbox.com/blog</a>
+- <a href="http://HealthCare.gov/">HealthCare.gov</a>
+- <a href="http://www.feedingtexas.org/">Feeding Taxes</a></p>
+
+<p>In addition, one of the things I love about this option is that those with advanced programming knowledge can extend their content to include cool interactive material. This might be things like tables, web maps, or just a freaking awesome interactive chart.</p>
+
+<hr />
+
+<h4 id="tech-specs-and-taghi-esque-details">Tech specs and Taghi-esque details</h4>
+<ul>
+  <li><strong>cost:</strong> $0</li>
+  <li><strong>server requirements:</strong> our normal web server or host directly in Github</li>
+  <li><strong>database requirements:</strong> come on man, did you even read. No DATABASE!</li>
+  <li><strong>Jekyll build environment:</strong> local or Github</li>
+  <li><strong>additional software:</strong> none</li>
+  <li><strong>final served file types:</strong> .html, .css, .js, and any images</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h4 id="this-was-fun-for-me-i-hope-you-find-it-useful">This was fun for me. I hope you find it useful.</h4>
+<p><em>If you have questions, I might answer them.</em></p>
+
+<blockquote>
+
+  <p><strong>Viva la data journal!</strong></p>
+
+</blockquote>
 
                         
                         <hr>
@@ -253,7 +321,7 @@
      
       <a class="btn btn-xs btn-primary" href="/tags.html#planning-ref">planning</a>
      
-      <a class="btn btn-xs btn-primary" href="/tags.html#data download-ref">data download</a>
+      <a class="btn btn-xs btn-primary" href="/tags.html#transit-ref">transit</a>
     
   
 
@@ -264,11 +332,11 @@
                         <hr>
                             <ul class="pagination">
                                 
-                                  <li class="prev"><a href="/products/ci2.html" title="CI2 Helps Planners Target Projects with Greatest Impact">&laquo; Previous</a></li>
+                                  <li class="prev"><a href="/products/data-navigator.html" title="Use DVRPC’s Data Navigator for Municipal-Level Demographic Info">&laquo; Previous</a></li>
                                 
                                   <li><a href="/archive.html">Archive</a></li>
                                 
-                                  <li class="next"><a href="/products/bike-ped-counts.html" title="DVRPC Counts Vehicle, Bicycle, Pedestrian Traffic">Next &raquo;</a></li>
+                                  <li class="next disabled"><a>Next &rarr;</a>
                                 
                             </ul>
                         <p>&nbsp;</p>
@@ -280,9 +348,9 @@
                                 </div>
                                 <div class="media-body">
                                     <div class="media-heading">
-                                        <strong>Chris Pollard</strong>
+                                        <strong>Michael Ruane</strong>
                                     </div>
-                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                                    <p>Michael is a programming wizard that spends most of his hours commuting. This translates into a lot of time learning and refining his craft. He also plays a lead role in the freight planning office at DVRPC.</p>
                                 </div>
                             </div>
                         </div><!--/.author-->

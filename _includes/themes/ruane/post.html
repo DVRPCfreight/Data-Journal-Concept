@@ -11,12 +11,6 @@
                     <span><i class="icon-calendar"></i> {{ page.date | date: '%B %d, %Y' }}</span>
                 </div>
             </div>
-            <!-- <div class="col-sm-6">
-                <ul class="breadcrumb pull-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active">About Us</li>
-                </ul>
-            </div> -->
         </div>
     </div>
 </section><!--/#title-->
@@ -36,22 +30,39 @@
             </div><!--/.search-->
 
             <div class="widget categories">
-                <h3>Categories</h3>
+                <h4>Categories</h4>
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="arrow">
-                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Products</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="arrow">
-                            <li><a href="#">Joomla</a></li>
+                            <li><a href="#">New Data</a></li>
                         </ul>
                     </div>
                 </div>                     
             </div><!--/.categories-->
+            <h4>Recent Posts</h4>
+            <div>
+                {% for post in site.posts limit:3 %}
+                    <a href="{{ BASE_PATH }}{{ post.url }}">
+                        <div class="media">
+                            <div class="pull-left sidebar-images">
+                                <img src="{{ BASE_PATH }}{{ post.feature_image }}" alt="">
+                            </div>
+                            <div class="media-body">
+                                <span class="media-heading">{{ post.title }}</span><br/>
+                                <small class="muted">{{ post.date | date: "%B %-d, %Y" }}</small><br/>
+                                <small class="muted"><em>{{ post.category }}</em></small>
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>  
             <div class="widget tags">
-                <h3>Post Tags</h3>
+                <h4>Popular tags</h4>
                 {% unless site.tags == empty %}
                     <ul class="tag-cloud">
                         {% assign tags_list = site.tags %}

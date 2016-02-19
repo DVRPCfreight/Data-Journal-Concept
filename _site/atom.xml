@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Jekyll Bootstrap</title>
- <link href="http://DVRPCFreight.github.io/Jekyll-Blog/atom.xml" rel="self"/>
- <link href="http://DVRPCFreight.github.io/Jekyll-Blog"/>
- <updated>2016-02-17T20:39:02-05:00</updated>
- <id>http://DVRPCFreight.github.io/Jekyll-Blog</id>
+ <link href="false/atom.xml" rel="self"/>
+ <link href="false"/>
+ <updated>2016-02-18T20:57:37-05:00</updated>
+ <id>false</id>
  <author>
    <name>Michael Ruane</name>
    <email>blah@email.test</email>
@@ -13,10 +13,92 @@
 
  
  <entry>
+   <title>How does this work?</title>
+   <link href="false/products/how-it-works.html"/>
+   <updated>2016-02-18T00:00:00-05:00</updated>
+   <id>false/products/how-it-works</id>
+   <content type="html">
+&lt;h3 id=&quot;duh-magic-that-is-how&quot;&gt;Duh, Magic. That is how!&lt;/h3&gt;
+
+&lt;p&gt;The desire to create a blog, or any dynamic content site, often leads to a Content Management System (CMS). These systems do of course have their purposes, but can also be incredibly costly and have &lt;strong&gt;a ton&lt;/strong&gt; of bloat. One of the best alternatives on the market is Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a tool that uses a lot of fun technical nonsense to develop a static file blog from predefined templates based on content stored in Markdown files. I know, I know…“so what. That is what a CMS does right?” Wrong. A CMS ultimately relies on database to store data that is compiled by the server and sent to the client. Jekyll creates the static HTML files before they are made available on the server.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;yeah-butis-jekyll-really-the-answer&quot;&gt;Yeah but…is Jekyll really the answer?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;I don’t know!&lt;/strong&gt; It could be, but I don’t know the full end game.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I just get bored on the train sometimes and figured, “I remember long ago discussing a data journal, I should learn that Jekyll thing and test it out.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So the result? You are looking at it. 1hr and 45minutes of development for a proof of concept data journal. God bless that public transit system.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;But this doesn’t look sleek and awesome?&lt;/strong&gt; Chill bro, it is a proof of concept! We can build anything from this framework. ANYTHING!!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: within reason of course, this isn’t NASA.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-about-workflow&quot;&gt;What about workflow?&lt;/h3&gt;
+
+&lt;p&gt;Glad you asked. Work flow still needs to be defined, but that applies to any new system. The are many ways of editing Markdown files. &lt;em&gt;If you were paying attention you would know those are what store the content.&lt;/em&gt; One great option that offers a friendly user interface is Prose.io. It allows users to develop content that saves directly to a Github repo and can be useful to none programmers that need help with the syntax.&lt;/p&gt;
+
+&lt;p&gt;About Markdown…it isn’t as scary as it seems. It is a basic language for development that you can see in the demo above or &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;this cheatsheet&lt;/a&gt;. It is powerful, yet elegant. That my friend translates into a very easy learning curve.&lt;/p&gt;
+
+&lt;p&gt;So the process of writing a post with Prose.io:
+1. Awesome, overachieving staff member decides “Hey I do cool stuff, I want to share it.” They intern develop content in Markdown on Prose.io (see above)
+2. The saved draft is reviewed by OCE (I guess? Beyond my pay grade)
+3. Upon approval, “jekyll build” is run by the web staff and updated static files are synced to the live server.
+4. Awesome, overachieving staff member celebrates their work by sharing the post with the world and buying everyone a round at happy hour.&lt;/p&gt;
+
+&lt;p&gt;Okay, so workflow very well may be the biggest unknown still. However, I believe this system could be deployed locally with some minor adjustments to better allocate user roles and improve this workflow.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;just-some-things-i-wanted-to-share&quot;&gt;Just some things I wanted to share&lt;/h3&gt;
+
+&lt;p&gt;This isn’t perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
+- &lt;a href=&quot;Mapbox.com/blog&quot;&gt;Mapbox.com/blog&lt;/a&gt;
+- &lt;a href=&quot;http://HealthCare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt;
+- &lt;a href=&quot;http://www.feedingtexas.org/&quot;&gt;Feeding Taxes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition, one of the things I love about this option is that those with advanced programming knowledge can extend their content to include cool interactive material. This might be things like tables, web maps, or just a freaking awesome interactive chart.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;tech-specs-and-taghi-esque-details&quot;&gt;Tech specs and Taghi-esque details&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;cost:&lt;/strong&gt; $0&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;server requirements:&lt;/strong&gt; our normal web server or host directly in Github&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;database requirements:&lt;/strong&gt; come on man, did you even read. No DATABASE!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jekyll build environment:&lt;/strong&gt; local or Github&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;additional software:&lt;/strong&gt; none&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;final served file types:&lt;/strong&gt; .html, .css, .js, and any images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;this-was-fun-for-me-i-hope-you-find-it-useful&quot;&gt;This was fun for me. I hope you find it useful.&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;If you have questions, I might answer them.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;&lt;strong&gt;Viva la data journal!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Use DVRPC’s Data Navigator for Municipal-Level Demographic Info</title>
-   <link href="http://DVRPCFreight.github.io/Jekyll-Blog/products/data-navigator.html"/>
+   <link href="false/products/data-navigator.html"/>
    <updated>2016-02-17T00:00:00-05:00</updated>
-   <id>http://DVRPCFreight.github.io/Jekyll-Blog/products/data-navigator</id>
+   <id>false/products/data-navigator</id>
    <content type="html">
 &lt;p&gt;The Data Navigator allows visitors to find various datasets for a given municipality or county. It automatically provides a map of the geography being queried and a graph of the data. To date, you can view Census information, crash data, population and employment forecasts, and more.  New datasets will be added to this interface as they become available, so check back often. To view the application, visit &lt;a href=&quot;http://www.dvrpc.org/asp/DataNavigator/default.aspx&quot;&gt;http://www.dvrpc.org/asp/DataNavigator/default.aspx&lt;/a&gt;.&lt;/p&gt;
 
@@ -26,9 +108,9 @@
  
  <entry>
    <title>DVRPC Counts Vehicle, Bicycle, Pedestrian Traffic</title>
-   <link href="http://DVRPCFreight.github.io/Jekyll-Blog/products/bike-ped-counts.html"/>
+   <link href="false/products/bike-ped-counts.html"/>
    <updated>2015-11-01T00:00:00-04:00</updated>
-   <id>http://DVRPCFreight.github.io/Jekyll-Blog/products/bike-ped-counts</id>
+   <id>false/products/bike-ped-counts</id>
    <content type="html">
 &lt;p&gt;DVRPC collects traffic volume counts at over 5,000 locations each year, including vehicles, bicycles, and pedestrians. Vehicle and bicycle count data is collected by the pneumatic tubes you see laying across the road, and pedestrian counts utilize heat sensors that count passing people. In addition, there are 12 permanent bicycle and pedestrian counters on trails throughout the region. This traffic data is used by transportation engineers and planners, developers, and market analysts to make informed decisions in their work. To search by location or mode, visit &lt;a href=&quot;http://www.dvrpc.org/Traffic/&quot;&gt;access data here&lt;/a&gt;.&lt;/p&gt;
 
@@ -38,9 +120,9 @@
  
  <entry>
    <title>CyclePhilly App Data Available</title>
-   <link href="http://DVRPCFreight.github.io/Jekyll-Blog/new%20data/cyclephilly-data-available.html"/>
+   <link href="false/new%20data/cyclephilly-data-available.html"/>
    <updated>2015-05-01T00:00:00-04:00</updated>
-   <id>http://DVRPCFreight.github.io/Jekyll-Blog/new%20data/cyclephilly-data-available</id>
+   <id>false/new%20data/cyclephilly-data-available</id>
    <content type="html">
 &lt;p&gt;The launch of the CyclePhilly smartphone app has provided a valuable glimpse into the bicycling habits of Greater Philadelphia. Since it the app was launched, 220 bicyclists used CyclePhilly to record their routes, and the resulting data is now available for sharing and use. The data received provides an additional resource for local planners and agencies in an effort to understand bicycle trends, routes, and trip purposes, implement better bicycle facilities, and connect the region’s trail network, known as The Circuit.&lt;/p&gt;
 
@@ -52,9 +134,9 @@
  
  <entry>
    <title>CI2 Helps Planners Target Projects with Greatest Impact</title>
-   <link href="http://DVRPCFreight.github.io/Jekyll-Blog/products/ci2.html"/>
+   <link href="false/products/ci2.html"/>
    <updated>2012-09-12T00:00:00-04:00</updated>
-   <id>http://DVRPCFreight.github.io/Jekyll-Blog/products/ci2</id>
+   <id>false/products/ci2</id>
    <content type="html">
 &lt;p&gt;DVRPC’s Community Investment Index maps the concentrations of recent (2000 through 2010) place-based investments that contribute to sustainable communities, as well as supportive planning activities and underlying development characteristics. Taken together, these maps summarize a location’s ability to leverage new sustainability- or livability-oriented investments.&lt;/p&gt;
 

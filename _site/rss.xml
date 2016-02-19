@@ -3,12 +3,94 @@
 <channel>
         <title>Jekyll Bootstrap</title>
         <description>Jekyll Bootstrap - Michael Ruane</description>
-        <link>http://DVRPCFreight.github.io/Jekyll-Blog</link>
-        <atom:link href="http://DVRPCFreight.github.io/Jekyll-Blog/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 17 Feb 2016 20:39:02 -0500</lastBuildDate>
-        <pubDate>Wed, 17 Feb 2016 20:39:02 -0500</pubDate>
+        <link>false</link>
+        <atom:link href="false/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 18 Feb 2016 20:57:37 -0500</lastBuildDate>
+        <pubDate>Thu, 18 Feb 2016 20:57:37 -0500</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>How does this work?</title>
+                <description>
+&lt;h3 id=&quot;duh-magic-that-is-how&quot;&gt;Duh, Magic. That is how!&lt;/h3&gt;
+
+&lt;p&gt;The desire to create a blog, or any dynamic content site, often leads to a Content Management System (CMS). These systems do of course have their purposes, but can also be incredibly costly and have &lt;strong&gt;a ton&lt;/strong&gt; of bloat. One of the best alternatives on the market is Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a tool that uses a lot of fun technical nonsense to develop a static file blog from predefined templates based on content stored in Markdown files. I know, I know…“so what. That is what a CMS does right?” Wrong. A CMS ultimately relies on database to store data that is compiled by the server and sent to the client. Jekyll creates the static HTML files before they are made available on the server.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;yeah-butis-jekyll-really-the-answer&quot;&gt;Yeah but…is Jekyll really the answer?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;I don’t know!&lt;/strong&gt; It could be, but I don’t know the full end game.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I just get bored on the train sometimes and figured, “I remember long ago discussing a data journal, I should learn that Jekyll thing and test it out.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So the result? You are looking at it. 1hr and 45minutes of development for a proof of concept data journal. God bless that public transit system.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;But this doesn’t look sleek and awesome?&lt;/strong&gt; Chill bro, it is a proof of concept! We can build anything from this framework. ANYTHING!!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: within reason of course, this isn’t NASA.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-about-workflow&quot;&gt;What about workflow?&lt;/h3&gt;
+
+&lt;p&gt;Glad you asked. Work flow still needs to be defined, but that applies to any new system. The are many ways of editing Markdown files. &lt;em&gt;If you were paying attention you would know those are what store the content.&lt;/em&gt; One great option that offers a friendly user interface is Prose.io. It allows users to develop content that saves directly to a Github repo and can be useful to none programmers that need help with the syntax.&lt;/p&gt;
+
+&lt;p&gt;About Markdown…it isn’t as scary as it seems. It is a basic language for development that you can see in the demo above or &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;this cheatsheet&lt;/a&gt;. It is powerful, yet elegant. That my friend translates into a very easy learning curve.&lt;/p&gt;
+
+&lt;p&gt;So the process of writing a post with Prose.io:
+1. Awesome, overachieving staff member decides “Hey I do cool stuff, I want to share it.” They intern develop content in Markdown on Prose.io (see above)
+2. The saved draft is reviewed by OCE (I guess? Beyond my pay grade)
+3. Upon approval, “jekyll build” is run by the web staff and updated static files are synced to the live server.
+4. Awesome, overachieving staff member celebrates their work by sharing the post with the world and buying everyone a round at happy hour.&lt;/p&gt;
+
+&lt;p&gt;Okay, so workflow very well may be the biggest unknown still. However, I believe this system could be deployed locally with some minor adjustments to better allocate user roles and improve this workflow.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;just-some-things-i-wanted-to-share&quot;&gt;Just some things I wanted to share&lt;/h3&gt;
+
+&lt;p&gt;This isn’t perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
+- &lt;a href=&quot;Mapbox.com/blog&quot;&gt;Mapbox.com/blog&lt;/a&gt;
+- &lt;a href=&quot;http://HealthCare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt;
+- &lt;a href=&quot;http://www.feedingtexas.org/&quot;&gt;Feeding Taxes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition, one of the things I love about this option is that those with advanced programming knowledge can extend their content to include cool interactive material. This might be things like tables, web maps, or just a freaking awesome interactive chart.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;tech-specs-and-taghi-esque-details&quot;&gt;Tech specs and Taghi-esque details&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;cost:&lt;/strong&gt; $0&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;server requirements:&lt;/strong&gt; our normal web server or host directly in Github&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;database requirements:&lt;/strong&gt; come on man, did you even read. No DATABASE!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jekyll build environment:&lt;/strong&gt; local or Github&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;additional software:&lt;/strong&gt; none&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;final served file types:&lt;/strong&gt; .html, .css, .js, and any images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;this-was-fun-for-me-i-hope-you-find-it-useful&quot;&gt;This was fun for me. I hope you find it useful.&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;If you have questions, I might answer them.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;&lt;strong&gt;Viva la data journal!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+</description>
+                <link>false/products/how-it-works.html</link>
+                <guid>false/products/how-it-works</guid>
+                <pubDate>Thu, 18 Feb 2016 00:00:00 -0500</pubDate>
+        </item>
 
         <item>
                 <title>Use DVRPC’s Data Navigator for Municipal-Level Demographic Info</title>
@@ -17,8 +99,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/media/data_nav.png&quot; alt=&quot;data_nav.png&quot; /&gt;&lt;/p&gt;
 </description>
-                <link>http://DVRPCFreight.github.io/Jekyll-Blog/products/data-navigator.html</link>
-                <guid>http://DVRPCFreight.github.io/Jekyll-Blog/products/data-navigator</guid>
+                <link>false/products/data-navigator.html</link>
+                <guid>false/products/data-navigator</guid>
                 <pubDate>Wed, 17 Feb 2016 00:00:00 -0500</pubDate>
         </item>
 
@@ -29,8 +111,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/media/traffic_counts.png&quot; alt=&quot;traffic_counts.png&quot; /&gt;&lt;/p&gt;
 </description>
-                <link>http://DVRPCFreight.github.io/Jekyll-Blog/products/bike-ped-counts.html</link>
-                <guid>http://DVRPCFreight.github.io/Jekyll-Blog/products/bike-ped-counts</guid>
+                <link>false/products/bike-ped-counts.html</link>
+                <guid>false/products/bike-ped-counts</guid>
                 <pubDate>Sun, 01 Nov 2015 00:00:00 -0400</pubDate>
         </item>
 
@@ -43,8 +125,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/media/cycle_philly.png&quot; alt=&quot;cycle_philly.png&quot; /&gt;&lt;/p&gt;
 </description>
-                <link>http://DVRPCFreight.github.io/Jekyll-Blog/new%20data/cyclephilly-data-available.html</link>
-                <guid>http://DVRPCFreight.github.io/Jekyll-Blog/new%20data/cyclephilly-data-available</guid>
+                <link>false/new%20data/cyclephilly-data-available.html</link>
+                <guid>false/new%20data/cyclephilly-data-available</guid>
                 <pubDate>Fri, 01 May 2015 00:00:00 -0400</pubDate>
         </item>
 
@@ -59,8 +141,8 @@
 
 &lt;!-- ![ci2_image.png](/media/ci2_image.png) --&gt;
 </description>
-                <link>http://DVRPCFreight.github.io/Jekyll-Blog/products/ci2.html</link>
-                <guid>http://DVRPCFreight.github.io/Jekyll-Blog/products/ci2</guid>
+                <link>false/products/ci2.html</link>
+                <guid>false/products/ci2</guid>
                 <pubDate>Wed, 12 Sep 2012 00:00:00 -0400</pubDate>
         </item>
 
