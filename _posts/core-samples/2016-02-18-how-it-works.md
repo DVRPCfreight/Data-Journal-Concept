@@ -54,9 +54,9 @@ Okay, so workflow very well may be the biggest unknown still. However, I believe
 ### Just some things I wanted to share
 
 This isn't perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
-- [Mapbox.com/blog](Mapbox.com/blog)
-- [HealthCare.gov](http://HealthCare.gov/)
-- [Feeding Taxes](http://www.feedingtexas.org/)
+* [Mapbox.com/blog](Mapbox.com/blog)
+* [HealthCare.gov](http://HealthCare.gov/)
+* [Feeding Taxes](http://www.feedingtexas.org/)
 
 In addition, one of the things I love about this option is that those with advanced programming knowledge can extend their content to include cool interactive material. This might be things like tables, web maps, or just a freaking awesome interactive chart.
 

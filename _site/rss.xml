@@ -5,8 +5,8 @@
         <description>Jekyll Bootstrap - Michael Ruane</description>
         <link>false</link>
         <atom:link href="false/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 18 Feb 2016 20:57:37 -0500</lastBuildDate>
-        <pubDate>Thu, 18 Feb 2016 20:57:37 -0500</pubDate>
+        <lastBuildDate>Thu, 18 Feb 2016 21:05:38 -0500</lastBuildDate>
+        <pubDate>Thu, 18 Feb 2016 21:05:38 -0500</pubDate>
         <ttl>60</ttl>
 
 
@@ -58,9 +58,9 @@
 &lt;h3 id=&quot;just-some-things-i-wanted-to-share&quot;&gt;Just some things I wanted to share&lt;/h3&gt;
 
 &lt;p&gt;This isn’t perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
-- &lt;a href=&quot;Mapbox.com/blog&quot;&gt;Mapbox.com/blog&lt;/a&gt;
-- &lt;a href=&quot;http://HealthCare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt;
-- &lt;a href=&quot;http://www.feedingtexas.org/&quot;&gt;Feeding Taxes&lt;/a&gt;&lt;/p&gt;
+* &lt;a href=&quot;Mapbox.com/blog&quot;&gt;Mapbox.com/blog&lt;/a&gt;
+* &lt;a href=&quot;http://HealthCare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt;
+* &lt;a href=&quot;http://www.feedingtexas.org/&quot;&gt;Feeding Taxes&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In addition, one of the things I love about this option is that those with advanced programming knowledge can extend their content to include cool interactive material. This might be things like tables, web maps, or just a freaking awesome interactive chart.&lt;/p&gt;
 
