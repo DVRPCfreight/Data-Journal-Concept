@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Jekyll Bootstrap</title>
- <link href="false/atom.xml" rel="self"/>
- <link href="false"/>
- <updated>2016-02-18T21:32:45-05:00</updated>
- <id>false</id>
+ <link href="http://DVRPCFreight.github.io/Data-Journal-Concept/atom.xml" rel="self"/>
+ <link href="http://DVRPCFreight.github.io/Data-Journal-Concept"/>
+ <updated>2016-02-19T08:42:24-05:00</updated>
+ <id>http://DVRPCFreight.github.io/Data-Journal-Concept</id>
  <author>
    <name>Michael Ruane</name>
    <email>blah@email.test</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>How does this work?</title>
-   <link href="false/products/how-it-works.html"/>
+   <link href="http://DVRPCFreight.github.io/Data-Journal-Concept/products/how-it-works.html"/>
    <updated>2016-02-18T00:00:00-05:00</updated>
-   <id>false/products/how-it-works</id>
+   <id>http://DVRPCFreight.github.io/Data-Journal-Concept/products/how-it-works</id>
    <content type="html">
 &lt;h3 id=&quot;duh-magic-that-is-how&quot;&gt;Duh, Magic. That is how!&lt;/h3&gt;
 
@@ -47,6 +47,8 @@
 &lt;h3 id=&quot;what-about-workflow&quot;&gt;What about workflow?&lt;/h3&gt;
 
 &lt;p&gt;Glad you asked. Work flow still needs to be defined, but that applies to any new system. The are many ways of editing Markdown files. &lt;em&gt;If you were paying attention you would know those are what store the content.&lt;/em&gt; One great option that offers a friendly user interface is Prose.io. It allows users to develop content that saves directly to a Github repo and can be useful to none programmers that need help with the syntax.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Data-Journal-Concept/media/prose-demo.gif&quot; alt=&quot;prose demo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;About Markdown…it isn’t as scary as it seems. It is a basic language for development that you can see in the demo above or &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;this cheatsheet&lt;/a&gt;. It is powerful, yet elegant. That my friend translates into a very easy learning curve.&lt;/p&gt;
 
@@ -102,47 +104,47 @@
  
  <entry>
    <title>Use DVRPC’s Data Navigator for Municipal-Level Demographic Info</title>
-   <link href="false/products/data-navigator.html"/>
+   <link href="http://DVRPCFreight.github.io/Data-Journal-Concept/products/data-navigator.html"/>
    <updated>2016-02-17T00:00:00-05:00</updated>
-   <id>false/products/data-navigator</id>
+   <id>http://DVRPCFreight.github.io/Data-Journal-Concept/products/data-navigator</id>
    <content type="html">
 &lt;p&gt;The Data Navigator allows visitors to find various datasets for a given municipality or county. It automatically provides a map of the geography being queried and a graph of the data. To date, you can view Census information, crash data, population and employment forecasts, and more.  New datasets will be added to this interface as they become available, so check back often. To view the application, visit &lt;a href=&quot;http://www.dvrpc.org/asp/DataNavigator/default.aspx&quot;&gt;http://www.dvrpc.org/asp/DataNavigator/default.aspx&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/media/data_nav.png&quot; alt=&quot;data_nav.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Data-Journal-Concept/media/data_nav.png&quot; alt=&quot;data_nav.png&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>DVRPC Counts Vehicle, Bicycle, Pedestrian Traffic</title>
-   <link href="false/products/bike-ped-counts.html"/>
+   <link href="http://DVRPCFreight.github.io/Data-Journal-Concept/products/bike-ped-counts.html"/>
    <updated>2015-11-01T00:00:00-04:00</updated>
-   <id>false/products/bike-ped-counts</id>
+   <id>http://DVRPCFreight.github.io/Data-Journal-Concept/products/bike-ped-counts</id>
    <content type="html">
 &lt;p&gt;DVRPC collects traffic volume counts at over 5,000 locations each year, including vehicles, bicycles, and pedestrians. Vehicle and bicycle count data is collected by the pneumatic tubes you see laying across the road, and pedestrian counts utilize heat sensors that count passing people. In addition, there are 12 permanent bicycle and pedestrian counters on trails throughout the region. This traffic data is used by transportation engineers and planners, developers, and market analysts to make informed decisions in their work. To search by location or mode, visit &lt;a href=&quot;http://www.dvrpc.org/Traffic/&quot;&gt;access data here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/media/traffic_counts.png&quot; alt=&quot;traffic_counts.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Data-Journal-Concept/media/traffic_counts.png&quot; alt=&quot;traffic_counts.png&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>CyclePhilly App Data Available</title>
-   <link href="false/new%20data/cyclephilly-data-available.html"/>
+   <link href="http://DVRPCFreight.github.io/Data-Journal-Concept/new%20data/cyclephilly-data-available.html"/>
    <updated>2015-05-01T00:00:00-04:00</updated>
-   <id>false/new%20data/cyclephilly-data-available</id>
+   <id>http://DVRPCFreight.github.io/Data-Journal-Concept/new%20data/cyclephilly-data-available</id>
    <content type="html">
 &lt;p&gt;The launch of the CyclePhilly smartphone app has provided a valuable glimpse into the bicycling habits of Greater Philadelphia. Since it the app was launched, 220 bicyclists used CyclePhilly to record their routes, and the resulting data is now available for sharing and use. The data received provides an additional resource for local planners and agencies in an effort to understand bicycle trends, routes, and trip purposes, implement better bicycle facilities, and connect the region’s trail network, known as The Circuit.&lt;/p&gt;
 
 &lt;p&gt;Three additional datasets have been added to the “download data” tab under “Tools and Data” on the &lt;a href=&quot;http://www.dvrpc.org/webmaps/CyclePhilly/&quot;&gt;DVRPC web site&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/media/cycle_philly.png&quot; alt=&quot;cycle_philly.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Data-Journal-Concept/media/cycle_philly.png&quot; alt=&quot;cycle_philly.png&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>CI2 Helps Planners Target Projects with Greatest Impact</title>
-   <link href="false/products/ci2.html"/>
+   <link href="http://DVRPCFreight.github.io/Data-Journal-Concept/products/ci2.html"/>
    <updated>2012-09-12T00:00:00-04:00</updated>
-   <id>false/products/ci2</id>
+   <id>http://DVRPCFreight.github.io/Data-Journal-Concept/products/ci2</id>
    <content type="html">
 &lt;p&gt;DVRPC’s Community Investment Index maps the concentrations of recent (2000 through 2010) place-based investments that contribute to sustainable communities, as well as supportive planning activities and underlying development characteristics. Taken together, these maps summarize a location’s ability to leverage new sustainability- or livability-oriented investments.&lt;/p&gt;
 
@@ -150,7 +152,7 @@
 
 &lt;p&gt;&lt;a href=&quot;http://www.dvrpc.org/ci2/&quot;&gt;Visit the interactive map.&lt;/a&gt;&lt;/p&gt;
 
-&lt;!-- ![ci2_image.png](/media/ci2_image.png) --&gt;
+&lt;!-- ![ci2_image.png](/Data-Journal-Concept/media/ci2_image.png) --&gt;
 </content>
  </entry>
  

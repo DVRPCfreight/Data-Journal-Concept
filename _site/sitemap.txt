@@ -1,15 +1,15 @@
 
-false/archive.html
-false/atom.xml
-false/categories.html
-false/
-false/old_index.html
-false/rss.xml
-false/sitemap.txt
-false/tags.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/archive.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/atom.xml
+http://DVRPCFreight.github.io/Data-Journal-Concept/categories.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/
+http://DVRPCFreight.github.io/Data-Journal-Concept/old_index.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/rss.xml
+http://DVRPCFreight.github.io/Data-Journal-Concept/sitemap.txt
+http://DVRPCFreight.github.io/Data-Journal-Concept/tags.html
 
-false/products/how-it-works.html
-false/products/data-navigator.html
-false/products/bike-ped-counts.html
-false/new%20data/cyclephilly-data-available.html
-false/products/ci2.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/products/how-it-works.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/products/data-navigator.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/products/bike-ped-counts.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/new%20data/cyclephilly-data-available.html
+http://DVRPCFreight.github.io/Data-Journal-Concept/products/ci2.html

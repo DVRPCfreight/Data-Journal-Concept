@@ -37,6 +37,9 @@ _Disclaimer: within reason of course, this isn't NASA._
 
 Glad you asked. Work flow still needs to be defined, but that applies to any new system. The are many ways of editing Markdown files. _If you were paying attention you would know those are what store the content._ One great option that offers a friendly user interface is Prose.io. It allows users to develop content that saves directly to a Github repo and can be useful to none programmers that need help with the syntax.
 
+![prose demo]({{site.baseurl}}/media/prose-demo.gif)
+
+
 About Markdown...it isn't as scary as it seems. It is a basic language for development that you can see in the demo above or [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). It is powerful, yet elegant. That my friend translates into a very easy learning curve.
 
 So the process of writing a post with Prose.io:
