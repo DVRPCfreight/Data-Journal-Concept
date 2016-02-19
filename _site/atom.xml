@@ -4,7 +4,7 @@
  <title>Jekyll Bootstrap</title>
  <link href="false/atom.xml" rel="self"/>
  <link href="false"/>
- <updated>2016-02-18T21:05:38-05:00</updated>
+ <updated>2016-02-18T21:06:35-05:00</updated>
  <id>false</id>
  <author>
    <name>Michael Ruane</name>
@@ -50,11 +50,14 @@
 
 &lt;p&gt;About Markdown…it isn’t as scary as it seems. It is a basic language for development that you can see in the demo above or &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;this cheatsheet&lt;/a&gt;. It is powerful, yet elegant. That my friend translates into a very easy learning curve.&lt;/p&gt;
 
-&lt;p&gt;So the process of writing a post with Prose.io:
-1. Awesome, overachieving staff member decides “Hey I do cool stuff, I want to share it.” They intern develop content in Markdown on Prose.io (see above)
-2. The saved draft is reviewed by OCE (I guess? Beyond my pay grade)
-3. Upon approval, “jekyll build” is run by the web staff and updated static files are synced to the live server.
-4. Awesome, overachieving staff member celebrates their work by sharing the post with the world and buying everyone a round at happy hour.&lt;/p&gt;
+&lt;p&gt;So the process of writing a post with Prose.io:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Awesome, overachieving staff member decides “Hey I do cool stuff, I want to share it.” They intern develop content in Markdown on Prose.io (see above)&lt;/li&gt;
+  &lt;li&gt;The saved draft is reviewed by OCE (I guess? Beyond my pay grade)&lt;/li&gt;
+  &lt;li&gt;Upon approval, “jekyll build” is run by the web staff and updated static files are synced to the live server.&lt;/li&gt;
+  &lt;li&gt;Awesome, overachieving staff member celebrates their work by sharing the post with the world and buying everyone a round at happy hour.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;Okay, so workflow very well may be the biggest unknown still. However, I believe this system could be deployed locally with some minor adjustments to better allocate user roles and improve this workflow.&lt;/p&gt;
 
@@ -62,10 +65,13 @@
 
 &lt;h3 id=&quot;just-some-things-i-wanted-to-share&quot;&gt;Just some things I wanted to share&lt;/h3&gt;
 
-&lt;p&gt;This isn’t perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
-* &lt;a href=&quot;Mapbox.com/blog&quot;&gt;Mapbox.com/blog&lt;/a&gt;
-* &lt;a href=&quot;http://HealthCare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt;
-* &lt;a href=&quot;http://www.feedingtexas.org/&quot;&gt;Feeding Taxes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This isn’t perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;Mapbox.com/blog&quot;&gt;Mapbox.com/blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://HealthCare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.feedingtexas.org/&quot;&gt;Feeding Taxes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;In addition, one of the things I love about this option is that those with advanced programming knowledge can extend their content to include cool interactive material. This might be things like tables, web maps, or just a freaking awesome interactive chart.&lt;/p&gt;
 

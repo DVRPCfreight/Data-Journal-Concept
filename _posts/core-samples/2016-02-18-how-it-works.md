@@ -42,6 +42,7 @@ Glad you asked. Work flow still needs to be defined, but that applies to any new
 About Markdown...it isn't as scary as it seems. It is a basic language for development that you can see in the demo above or [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). It is powerful, yet elegant. That my friend translates into a very easy learning curve.
 
 So the process of writing a post with Prose.io:
+
 1. Awesome, overachieving staff member decides "Hey I do cool stuff, I want to share it." They intern develop content in Markdown on Prose.io (see above)
 2. The saved draft is reviewed by OCE (I guess? Beyond my pay grade)
 3. Upon approval, "jekyll build" is run by the web staff and updated static files are synced to the live server.
@@ -54,6 +55,7 @@ Okay, so workflow very well may be the biggest unknown still. However, I believe
 ### Just some things I wanted to share
 
 This isn't perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
+
 * [Mapbox.com/blog](Mapbox.com/blog)
 * [HealthCare.gov](http://HealthCare.gov/)
 * [Feeding Taxes](http://www.feedingtexas.org/)
