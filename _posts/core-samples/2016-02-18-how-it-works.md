@@ -16,7 +16,7 @@ author: mruane
 
 The desire to create a blog, or any dynamic content site, often leads to a Content Management System (CMS). These systems do of course have their purposes, but can also be incredibly costly and have **a ton** of bloat. One of the best alternatives on the market is Jekyll.
 
-Jekyll is a tool that uses a lot of fun technical nonsense to develop a static file blog from predefined templates based on content stored in Markdown files. I know, I know..."so what. That is what a CMS does right?" Wrong. A CMS ultimately relies on database to store data that is compiled by the server and sent to the client. Jekyll creates the static HTML files before they are made available on the server. [Some more info from the creators.](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)
+Jekyll is a tool that uses a lot of fun technical nonsense to develop a static file blog from predefined templates based on content stored in Markdown files. I know, I know..."so what. That is what a CMS does right?" Wrong. A CMS ultimately relies on database to store data that is compiled by the server and sent to the client. Jekyll creates the static HTML files before they are made available on the server. [Some more info from the creators.](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/){:target="_blank"}
 
 ***
 
