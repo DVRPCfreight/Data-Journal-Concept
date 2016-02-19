@@ -1,13 +1,14 @@
 ---
 layout: post
 published: true
-title: How does this work?
+title: "How does this work?"
 feature_image: /media/code.jpg
 category: Products
 tags: 
   - planning
 author: mruane
 ---
+
 
 {% include JB/setup %}
 
@@ -37,6 +38,7 @@ _Disclaimer: within reason of course, this isn't NASA._
 
 Glad you asked. Work flow still needs to be defined, but that applies to any new system. The are many ways of editing Markdown files. _If you were paying attention you would know those are what store the content._ One great option that offers a friendly user interface is Prose.io. It allows users to develop content that saves directly to a Github repo and can be useful to none programmers that need help with the syntax.
 
+##### Here is a sample
 ![prose demo]({{site.baseurl}}/media/prose-demo.gif)
 
 
