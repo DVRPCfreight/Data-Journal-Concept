@@ -4,7 +4,7 @@
  <title>Jekyll Bootstrap</title>
  <link href="false/atom.xml" rel="self"/>
  <link href="false"/>
- <updated>2016-02-18T21:13:11-05:00</updated>
+ <updated>2016-02-18T21:32:45-05:00</updated>
  <id>false</id>
  <author>
    <name>Michael Ruane</name>
@@ -22,7 +22,7 @@
 
 &lt;p&gt;The desire to create a blog, or any dynamic content site, often leads to a Content Management System (CMS). These systems do of course have their purposes, but can also be incredibly costly and have &lt;strong&gt;a ton&lt;/strong&gt; of bloat. One of the best alternatives on the market is Jekyll.&lt;/p&gt;
 
-&lt;p&gt;Jekyll is a tool that uses a lot of fun technical nonsense to develop a static file blog from predefined templates based on content stored in Markdown files. I know, I know…“so what. That is what a CMS does right?” Wrong. A CMS ultimately relies on database to store data that is compiled by the server and sent to the client. Jekyll creates the static HTML files before they are made available on the server.&lt;/p&gt;
+&lt;p&gt;Jekyll is a tool that uses a lot of fun technical nonsense to develop a static file blog from predefined templates based on content stored in Markdown files. I know, I know…“so what. That is what a CMS does right?” Wrong. A CMS ultimately relies on database to store data that is compiled by the server and sent to the client. Jekyll creates the static HTML files before they are made available on the server. &lt;a href=&quot;https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/&quot;&gt;Some more info from the creators.&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 

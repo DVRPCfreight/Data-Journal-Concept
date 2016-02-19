@@ -43,11 +43,17 @@ h6 {
   font-weight: 400;
 }
 a {
-  color: #d9534f;
+  color: #34495e;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
   transition: 300ms;
+}
+.blog-color a{
+  color: #d9534f;
+}
+.tags a{
+  color: #fff;
 }
 hr {
   border-top: 1px solid #e5e5e5;
