@@ -10,6 +10,7 @@ author: mruane
 ---
 
 
+
 {% include JB/setup %}
 
 ### Duh, Magic. That is how!
@@ -46,7 +47,7 @@ About Markdown...it isn't as scary as it seems. It is a basic language for devel
 
 So the process of writing a post with Prose.io:
 
-1. Awesome, overachieving staff member decides "Hey I do cool stuff, I want to share it." They intern develop content in Markdown on Prose.io (see above)
+1. Awesome, overachieving staff member decides "Hey I do cool stuff, I want to share it." They, in turn develop content in Markdown on Prose.io (see above)
 2. The saved draft is reviewed by OCE (I guess? Beyond my pay grade)
 3. Upon approval, "jekyll build" is run by the web staff and updated static files are synced to the live server.
 4. Awesome, overachieving staff member celebrates their work by sharing the post with the world and buying everyone a round at happy hour.
