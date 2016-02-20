@@ -11,6 +11,7 @@ author: mruane
 
 
 
+
 {% include JB/setup %}
 
 ### Duh, Magic. That is how!
@@ -60,7 +61,7 @@ Okay, so workflow very well may be the biggest unknown still. However, I believe
 
 This isn't perfect but I think it is a very effective way to create dynamic content. Not only that it is very scalable. Some major examples:
 
-* [Mapbox.com/blog](Mapbox.com/blog)
+* [Mapbox.com/blog](http://Mapbox.com/blog)
 * [HealthCare.gov](http://HealthCare.gov/)
 * [Feeding Taxes](http://www.feedingtexas.org/)
 
